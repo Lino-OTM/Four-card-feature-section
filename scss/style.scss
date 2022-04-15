@@ -1,0 +1,92 @@
+@use "colors";
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  background-color: colors.$verylightgray;
+  flex-direction: column;
+}
+
+.main-container {
+  width: 81%;
+  max-width: 56rem;
+}
+
+.info-container {
+  text-align: center;
+  margin-bottom: 6rem;
+
+  &__title {
+    font-size: 2.5rem;
+    font-weight: 200;
+    color: colors.$verydarkblue;
+  }
+
+  &__subtitle {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: colors.$verydarkblue;
+  }
+
+  &__text {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    color: colors.$grayishblue;
+  }
+}
+
+.details-card {
+  position: relative;
+  background-color: #ffffff;
+  margin-bottom: 2.5rem;
+  box-shadow: 0 0.6rem 1.8rem -0.8rem colors.$grayishblue;
+  border-radius: 0.8rem;
+  padding: 2.1rem;
+  height: 19rem;
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: colors.$verydarkblue;
+    margin: 0;
+  }
+
+  &__text {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    color: colors.$grayishblue;
+  }
+
+  &__image {
+    position: absolute;
+    bottom: 2.5rem;
+    right: 2.5rem;
+  }
+
+  &--cyan {
+    border-top: 4px solid colors.$cyan;
+  }
+  &--red {
+    border-top: 4px solid colors.$red;
+  }
+  &--orange {
+    border-top: 4px solid colors.$orange;
+  }
+  &--blue {
+    border-top: 4px solid colors.$blue;
+  }
+}
+
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
