@@ -6,7 +6,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ![](/four-card-feature-section.jpg)
 
-Link:
+Link: https://lino-otm.github.io/Four-card-feature-section/
 
 ### Built with:
 
